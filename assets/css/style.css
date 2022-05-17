@@ -28,3 +28,18 @@
     margin-left: 10px;
     margin-top: 5px;
 }
+
+.section_A {
+    width: 50%;
+    display: inline-block;
+
+}
+
+.first_image {
+    display: inline-block;
+    height: 100%;
+}
+.section_B {
+    display: inline;
+}
+
