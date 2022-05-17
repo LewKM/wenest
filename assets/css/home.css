@@ -14,8 +14,9 @@ footer {
     width: 480px;
 }
 
-section {
+.section {
     padding-left: 150px;
+    padding-right: 150px;
 }
 
 .foodie {
@@ -41,6 +42,13 @@ section {
     font-size: 30px;
 }
 
+#motoguy {
+    background-color: black;
+    width: auto;
+}
+
 #abt {
     height: 450px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
