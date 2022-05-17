@@ -84,22 +84,25 @@ main{
 .stats_info_b {
     position: relative;
 }
+.happy_review{
+    float: right;
+}
 
 .one {
     position: absolute;
-    left: 50px;
+    left: 45px;
 }
 .two {
     position: absolute;
-    left: 100px;
+    left: 60px;
 }
 .three {
     position: absolute;
-    left: 150px;
+    left: 80px;
 }
 .four {
     position: absolute;
-    left: 200px;
+    left: 100px;
 }
 
 .one, .two, .three, .four {
