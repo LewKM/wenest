@@ -1,8 +1,46 @@
+html,
+body,
+footer {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .social {
     font-size: 20px;
 }
 
-img {
+.img {
     height: 400px;
     width: 480px;
+}
+
+section {
+    padding-left: 150px;
+}
+
+.foodie {
+    position: relative;
+    left: 40%;
+    bottom: 350px;
+    font-size: 30px;
+}
+
+#fooddelivery {
+    height: 450px;
+}
+
+#img {
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+}
+
+.abt {
+    padding-right: 50px;
+    width: 800px;
+    font-size: 30px;
+}
+
+#abt {
+    height: 450px;
 }
