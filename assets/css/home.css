@@ -45,10 +45,29 @@ footer {
 #motoguy {
     background-color: black;
     width: auto;
+    height: 500px;
 }
 
 #abt {
     height: 450px;
     padding-left: 150px;
     padding-right: 150px;
+}
+
+.expect {
+    color: white;
+    position: relative;
+    left: 550px;
+    bottom: 300px;
+    font-size: 25px;
+}
+
+#nduthiguy {
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+
+#wholefooter {
+    display: grid;
 }
