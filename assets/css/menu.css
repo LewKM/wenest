@@ -84,3 +84,8 @@ body {
   -webkit-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.355);
   -moz-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
 }
+
+.price {
+  color: green;
+  font-size: 15px;
+}

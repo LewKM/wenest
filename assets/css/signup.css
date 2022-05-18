@@ -14,7 +14,10 @@ body {
     background-image: url(../images/raw\ food\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
+
+
 .form_title{
     min-width: 400px;
     width: 100%;
@@ -71,4 +74,11 @@ body {
 
 #login { 
     text-align: center;
+}
+
+.not_registered {
+    margin-top: 3px;
+    font-size: 12px;
+    float: right;
+    margin-bottom: 20px;
 }
