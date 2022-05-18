@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./raw\ food\ 2.jpg);
+    background-image: url(../images/raw\ food\ 2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
