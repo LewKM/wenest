@@ -6,7 +6,7 @@
 
 .nav_container {
   height: 80px;
-  background-color: rgb(209, 197, 197);
+  background-color: #324001;
   display: flex;
   justify-content: space-between;
 }
@@ -40,17 +40,10 @@
 }
 
 .first_image {
-<<<<<<< HEAD
   display: inline-block;
-  height: 70%;
+  height: 80%;
   margin-top: 20px;
   border-radius: 20px;
-=======
-    display: inline-block;
-    height: 80%;
-    margin-top: 20px;
-    border-radius: 20px;
->>>>>>> 8d5984c25cbf6187c01d65ce6ce1afdf49fe1247
 }
 
 .section_B {
@@ -75,7 +68,7 @@
 
 .sign_up,
 .login {
-  background-color: rgb(247, 26, 63);
+  background-color: #324001;
   padding: 10px 40px;
   color: white;
   font-size: 20px;
