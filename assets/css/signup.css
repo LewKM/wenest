@@ -75,3 +75,10 @@ body {
 #login { 
     text-align: center;
 }
+
+.not_registered {
+    margin-top: 3px;
+    font-size: 12px;
+    float: right;
+    margin-bottom: 20px;
+}
