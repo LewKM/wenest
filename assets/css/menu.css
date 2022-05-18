@@ -48,6 +48,10 @@ body {
   -webkit-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.347);
   -moz-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
 }
+.cart_btn:hover{
+  color: white;
+background-color:#324001;
+}
 .banner-background {
   width: 95em;
   line-height: 2.3;
@@ -88,4 +92,5 @@ body {
 .price {
   color: green;
   font-size: 15px;
+  font-family: "Odibee Sans", cursive;
 }
