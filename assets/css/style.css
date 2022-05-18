@@ -40,10 +40,17 @@
 }
 
 .first_image {
+<<<<<<< HEAD
   display: inline-block;
   height: 70%;
   margin-top: 20px;
   border-radius: 20px;
+=======
+    display: inline-block;
+    height: 80%;
+    margin-top: 20px;
+    border-radius: 20px;
+>>>>>>> 8d5984c25cbf6187c01d65ce6ce1afdf49fe1247
 }
 
 .section_B {
