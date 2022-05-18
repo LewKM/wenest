@@ -159,7 +159,7 @@ footer {
     position: relative;
     left: 40%;
     bottom: 350px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #fooddelivery {
@@ -169,13 +169,13 @@ footer {
 #img {
     position: relative;
     left: 900px;
-    bottom: 400px;
+    bottom: 200px;
 }
 
 .abt {
     padding-right: 50px;
     width: 800px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #motoguy {
