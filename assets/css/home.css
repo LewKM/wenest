@@ -141,3 +141,9 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
+.featured {
+    height: 400px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
