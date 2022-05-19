@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: 0;
-  }
+}
+
 html,
 body,
 footer {
@@ -177,7 +178,6 @@ footer {
     bottom: 200px;
 }
 
-
 .abt {
     padding-right: 50px;
     width: 800px;
@@ -187,21 +187,16 @@ footer {
 #motoguy {
     background-color: black;
     width: auto;
-<<<<<<< HEAD
-    height: 500;
-=======
     height: 500px;
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 500px;
->>>>>>> 7c2c5744fab51fea1a5aa1f827848eb2023b7389
 }
 
-.ndudhi_container {
+.nduthi_container {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
-
 
 #abt {
     height: 450px;
@@ -315,6 +310,3 @@ li:not(:first-child) {
         grid-template-columns: 1fr;
     }
 }
-
-
-
