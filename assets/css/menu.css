@@ -5,14 +5,14 @@ body {
   display: flex;
   margin-left: 45px;
   padding-left: 30px;
-  margin-top: 30px;
+  padding-top: 90px;
 }
 
 .card {
   height: 61vh;
   width: 350px;
   margin-left: -362px;
-  padding-top: -1147px;
+  padding-top: -1137px;
   border-radius: 25px;
   border-radius: 25px;
   margin-left: 20px;
@@ -48,9 +48,9 @@ body {
   -webkit-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.347);
   -moz-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
 }
-.cart_btn:hover{
+.cart_btn:hover {
   color: white;
-background-color:#324001;
+  background-color: #324001;
 }
 .banner-background {
   width: 95em;
@@ -87,6 +87,10 @@ background-color:#324001;
   box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.355);
   -moz-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
+}
+.banner-btn:hover {
+  color: white;
+  background-color: #324001;
 }
 
 .price {
