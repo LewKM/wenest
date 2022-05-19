@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/signup.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/signup.css" />
     <title>Login page</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main_signup_container">
-        <div class="signup_sub_container">
-            <div class="form_title" id="login">Login</div>
-                <form action="">
-                    <div class="student_data">
-                        <div class="input_box">
-                            <span style="">Email address/Username:</span>
-                            <input type="email" class="name" placeholder="Enter your Email" required>
-                        </div>
-                        <div class="input_box">
-                            <span>Password:</span>
-                            <input type="password" class="name" placeholder="Password"required>
-                        </div>  
-                        
-                        <button type="submit" id="submit_btn">Login</button>     
-                        <div class="not_registered">
-                            <p>Not yet registered. Please <a href="./signup.html">Sign up</a></p>
-                        </div>  
-                    </div>
-                   
-                                  
-                </form>
-            
-        </div>
+      <div class="signup_sub_container">
+        <div class="form_title" id="login">Login</div>
+        <form action="">
+          <div class="student_data">
+            <div class="input_box">
+              <span>Email address/Username:</span>
+              <input
+                type="email"
+                id="email"
+                class="name"
+                placeholder="Enter your Email"
+                required
+              />
+            </div>
+            <div class="input_box">
+              <span>Password:</span>
+              <input
+                type="password"
+                id="password"
+                class="name"
+                placeholder="Password"
+                required
+              />
+            </div>
+
+            <a href="./assets/home.html">
+              <button type="submit" class="login_btn" id="submit">
+                Login
+              </button></a
+            >
+            <div class="not_registered">
+              <p>
+                Not yet registered. Please <a href="./signup.html">Sign up</a>
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+    <script src="./assets/js/login.js"></script>
+  </body>
 </html>
