@@ -11,6 +11,25 @@ footer {
     overflow-x: hidden;
 }
 
+body {
+    overflow-y: hidden;
+}
+
+.sign_up,
+.login {
+    background-color: #324001;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.login {
+    margin-left: 80px;
+}
+
 .nav {
     height: 80px;
     background-color: #324001;
@@ -131,7 +150,7 @@ footer {
     float: left;
     width: 40%;
     position: relative;
-    top: 50px;
+    top: 100px;
     font-size: 25px;
 }
 
@@ -149,6 +168,11 @@ footer {
     box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.355);
     -moz-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
+}
+
+.banner-btn:hover {
+    color: white;
+    background-color: #324001;
 }
 
 .inpt {
@@ -255,6 +279,7 @@ footer {
 .copyright {
     padding: 0.3em 1em;
     background-color: black;
+    height: 70px;
 }
 
 .row>p {
