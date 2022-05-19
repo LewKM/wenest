@@ -9,7 +9,22 @@ setInterval(() => {
     document.getElementById("submit").removeAttribute("disabled");
   }
 });
+
+function check(form) {
+  if (form.username.value && form.password.value) {
+    // alert("Welcome to Wenest");
+    var username = document.getElementById("username").value;
+    // alert("Welcome " + username);
+    // document.write("Welcome " + username);
+  } else {
+    alert("Error Password or Username");
+  }
+}
 document.getElementById("submit").onclick = function () {
   window.location.href = "./assets/home.html";
-  alert("Account creted successfully");
+  // alert("Welcome " + $, { username });
+  // alert("Account creted successfully");
+  var username = document.getElementById("username").value;
+
+  alert("Welcome" + " " + username);
 };
