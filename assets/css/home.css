@@ -187,10 +187,14 @@ footer {
 #motoguy {
     background-color: black;
     width: auto;
+<<<<<<< HEAD
+    height: 500;
+=======
     height: 500px;
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 500px;
+>>>>>>> 7c2c5744fab51fea1a5aa1f827848eb2023b7389
 }
 
 .ndudhi_container {
