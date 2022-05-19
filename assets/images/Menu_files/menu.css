@@ -16,14 +16,9 @@ body {
   margin-top: 30px;
 }
 
-.main {
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
 .card {
   height: 61vh;
-  width: 30%;
+  width: 350px;
   margin-left: -362px;
   padding-top: -1147px;
   border-radius: 25px;
@@ -75,7 +70,7 @@ body {
 background-color:#324001;
 }
 .banner-background {
-  width: 91%;
+  width: 95em;
   line-height: 2.3;
   margin-top: 40px;
   margin-bottom: 40px;
