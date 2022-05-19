@@ -9,3 +9,7 @@ setInterval(() => {
     document.getElementById("submit").removeAttribute("disabled");
   }
 });
+document.getElementById("submit").onclick = function () {
+  window.location.href = "./assets/home.html";
+  alert("Account creted successfully");
+};
