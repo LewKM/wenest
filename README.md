@@ -40,7 +40,8 @@ As a user:
 * Access to internet i.e through use of data bundles.
 
 *********************************************************************************************************************************
-* Clone to the developer repo: git clone  https://github.com/LewKM/wenest.git                                                   *
+* Clone to the developer repo: git clone  https://github.com/LewKM/wenest.git                                                   *  
+* Our figma design link is https://www.figma.com/file/RDHoZqBVKo9XgKOuWHqfUZ/WENEST-WEBSITE-DESIGN?node-id=0%3A1                *
 * Unzip the downloaded files in a folder of choice.                                                                             *
 * pen the index file from the zipped file with any browser.                                                                     *
 *********************************************************************************************************************************
