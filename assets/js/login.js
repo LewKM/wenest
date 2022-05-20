@@ -1,6 +1,6 @@
 setInterval(() => {
   if (
-    document.getElementById("email").value == "" ||
+    document.getElementById("username").value == "" ||
     document.getElementById("password").value == ""
   ) {
     document.getElementById("submit").setAttribute("disabled", "");
@@ -8,7 +8,18 @@ setInterval(() => {
     document.getElementById("submit").removeAttribute("disabled");
   }
 });
+
+function check(form) {
+  if (form.username.value && form.password.value) {
+    var username = document.getElementById("username").value;
+  } else {
+    alert("Error Password or Username");
+  }
+}
+
 document.getElementById("submit").onclick = function () {
   window.location.href = "../../menu.html";
-  alert("User Logged In");
+  var username = document.getElementById("username").value;
+
+  alert("Welcome back" + " " + username);
 };

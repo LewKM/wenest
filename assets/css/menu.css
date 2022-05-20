@@ -61,7 +61,6 @@ body {
   cursor: pointer;
   border-radius: 30px;
   margin-top: 20px;
-  /* margin-left: 118px; */
   box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.29);
   -webkit-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.347);
   -moz-box-shadow: 5px 7px 19px -5px rgba(0, 0, 0, 0.75);
@@ -146,4 +145,102 @@ body {
   color: green;
   font-size: 15px;
   font-family: "Odibee Sans", cursive;
+}
+
+
+/* this will affect the footer style */
+
+#footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.whole {
+  padding: 1em 1em;
+}
+
+.whole_footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  align-items: stretch;
+  min-width: 100vh;
+}
+
+#descrip {
+  padding-right: 30px;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: black;
+  height: 70px;
+}
+
+.row>p {
+  color: antiquewhite;
+}
+
+.foot {
+  float: left;
+  margin-top: 10px;
+}
+
+.foot a {
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  color: #166700;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+
+li:not(:first-child) {
+  margin-top: 0.8em;
+  
+}
+
+.section li a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+.section li {
+  list-style: none;
+}
+
+.section li a:hover {
+  color: #166700;
+}
+
+#footer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.section h2 {
+  color: crimson;
+}
+
+.featured {
+  padding-left: 150px;
+  padding-right: 150px;
+  height: 450px;
+}
+
+@media screen and (max-width: 850px) {
+  .whole.footer {
+      grid-template-columns: 1fr;
+  }
 }
