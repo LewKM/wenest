@@ -41,17 +41,14 @@
 .section_A {
     width: 50%;
     display: inline-block;
+    padding-top: 40px;
 }
 
 .first_image {
-    display: inline-block;
-    height: 100%;
-    padding: 20px;
+    float: right;
+    height: 90%;
     border-radius: 20px;
-}
-
-.section_B {
-    display: inline;
+    padding-top: 40px;
 }
 
 .stats_info {
